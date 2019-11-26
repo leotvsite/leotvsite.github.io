@@ -44,7 +44,6 @@ header .menu-item a {
     color: var(--dark-yellow);
     font-size: 12px;
     font-weight: bold;
-    letter-spacing: 1px;
 }
 
 header .menu-item a:hover {
@@ -52,7 +51,7 @@ header .menu-item a:hover {
 }
 
 .coreto {
-    max-width: 70px;
+    max-width: 35px;
     position: absolute;
     left: 0;
 }
@@ -130,11 +129,14 @@ main .depoimentos-titulo {
 }
 
 .up img {
-    max-width: 100px;
+    max-width: 25px;
     cursor: pointer;
 }
 
+.logo-riobranco {
+    max-width: 100px;
+}
+
 footer {
-    height: 50px;
     background-color: var(--dark-grey);
 }
