@@ -1,6 +1,9 @@
+function play() {
+    document.getElementById('play').style.display = 'block';
+}
 
-function scrollUp() {
-    scroll(0,0);
+function noplay() {
+    document.getElementById('play').style.display = 'none';
 }
 
 function hover1(element) {
@@ -74,3 +77,27 @@ function hover9(element) {
 function unhover9(element) {
     element.setAttribute('src', 'assets/images/MAESTRO-ISAIAS-ITU-SELECAO.jpg');
 }
+
+$('#modal1').on('hidden.bs.modal', function () {
+    $('#video1').trigger('pause');
+});
+
+$('#modal2').on('hidden.bs.modal', function () {
+    $('#video2').trigger('pause');
+});
+
+$('#modal3').on('hidden.bs.modal', function () {
+    $('#video3').trigger('pause');
+});
+
+$('#modal4').on('hidden.bs.modal', function () {
+    $('#video4').trigger('pause');
+});
+
+$('#modal5').on('hidden.bs.modal', function () {
+    $('#video5').trigger('pause');
+});
+
+$('#modal6').on('hidden.bs.modal', function () {
+    $('#video6').trigger('pause');
+});
