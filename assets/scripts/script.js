@@ -87,17 +87,17 @@ $('#modal2').on('hidden.bs.modal', function () {
 });
 
 $('#modal3').on('hidden.bs.modal', function () {
-    $('#video3').trigger('pause');
+    $("#modal3 iframe").attr("src", $("#modal3 iframe").attr("src"));
 });
 
 $('#modal4').on('hidden.bs.modal', function () {
-    $('#video4').trigger('pause');
+    $("#modal4 iframe").attr("src", $("#modal4 iframe").attr("src"));
 });
 
 $('#modal5').on('hidden.bs.modal', function () {
-    $('#video5').trigger('pause');
+    $("#modal5 iframe").attr("src", $("#modal5 iframe").attr("src"));
 });
 
-$('#modal6').on('hidden.bs.modal', function () {
-    $('#video6').trigger('pause');
+$("#modal6").on('hidden.bs.modal', function () {
+    $("#modal6 iframe").attr("src", $("#modal6 iframe").attr("src"));
 });
