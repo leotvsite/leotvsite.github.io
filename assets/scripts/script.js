@@ -6,6 +6,38 @@ function noplay() {
     document.getElementById('play').style.display = 'none';
 }
 
+function play1() {
+    document.getElementById('play1').style.display = 'block';
+}
+
+function noplay1() {
+    document.getElementById('play1').style.display = 'none';
+}
+
+function play2() {
+    document.getElementById('play2').style.display = 'block';
+}
+
+function noplay2() {
+    document.getElementById('play2').style.display = 'none';
+}
+
+function play3() {
+    document.getElementById('play3').style.display = 'block';
+}
+
+function noplay3() {
+    document.getElementById('play3').style.display = 'none';
+}
+
+function play4() {
+    document.getElementById('play4').style.display = 'block';
+}
+
+function noplay4() {
+    document.getElementById('play4').style.display = 'none';
+}
+
 function hover1(element) {
     element.setAttribute('src', 'assets/images/IBITINGA_CORETO.jpg');
 }

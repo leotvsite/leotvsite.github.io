@@ -17,6 +17,19 @@ html {
     scroll-behavior: smooth;
 }
 
+.mini-play-icon {
+    position: absolute;
+    opacity: .1;
+    pointer-events: none;
+    max-width: 100px;
+}
+
+.modal-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header {
     background-color: var(--light-grey);
 }
@@ -140,7 +153,7 @@ main .galeria-titulo {
 
 main .depoimento-item {
     font-size: 18px;
-    color: #BCBCBC;
+    color: #6b6b6b;
 }
 
 .depo {
