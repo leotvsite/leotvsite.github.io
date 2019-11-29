@@ -111,11 +111,11 @@ function unhover9(element) {
 }
 
 $('#modal1').on('hidden.bs.modal', function () {
-    $('#video1').trigger('pause');
+    $("#modal1 iframe").attr("src", $("#modal1 iframe").attr("src"));
 });
 
 $('#modal2').on('hidden.bs.modal', function () {
-    $('#video2').trigger('pause');
+    $("#modal2 iframe").attr("src", $("#modal2 iframe").attr("src"));
 });
 
 $('#modal3').on('hidden.bs.modal', function () {

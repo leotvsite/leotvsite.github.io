@@ -97,6 +97,10 @@ main .sobre {
     background-color: var(--medium-grey);
 }
 
+.sobre-inner {
+    text-align: center;
+}
+
 .sobre-inner .sobre-titulo {
     letter-spacing: 1px;
     font-size: 20px;
